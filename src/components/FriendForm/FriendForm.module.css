@@ -1,0 +1,20 @@
+.addBtn {
+  margin-left: 5px;
+  border: none;
+  background-color: #157a0591;
+  border-radius: 5px;
+  padding: 3px;
+  color: aliceblue;
+  font-size: 12px;
+  width: 120px;
+}
+
+.addBtn:hover {
+  background-color: #1a6bed;
+}
+
+.formCnt {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
