@@ -5,14 +5,9 @@ import css from './FriendForm.module.css';
 export function FriendForm(props) {
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
-  // state = {
-  //   name: '',
-  //   number: '',
-  // };
 
   const handleInputChange = e => {
     const { name, value } = e.target;
-    // this.setState({ [name]: value });
     switch (name) {
       case 'name':
         setName(value);
